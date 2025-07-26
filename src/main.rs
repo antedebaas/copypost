@@ -1,4 +1,4 @@
-use atrium_api::{client, Models::{Message, Mention}};
+use atrium_api::{client, models::{Message, Mention}};
 use reqwest::Client as HttpClient;
 use reqwest::header::{HeaderMap, HeaderValue, AUTHORIZATION};
 use serde::Deserialize;
