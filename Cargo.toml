@@ -1,9 +1,9 @@
 [dependencies]
-atrium-api = "0.25.4"           # Consider updating to the latest version if available
-tokio = { version = "1.37", features = ["full"] }  # Specify the latest 1.x version
-reqwest = { version = "0.11", features = ["json"] } # Check for latest 0.11.x version
+atrium-api = "0.25.4"
+tokio = { version = "1.37", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
 config = "0.14"
-serde = { versio n = "1.0", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
 regex = "1.11.1"
 
 [package]
